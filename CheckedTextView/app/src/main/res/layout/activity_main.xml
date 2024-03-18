@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#7469B6"
+        android:elevation="4dp"
+        app:title="CheckedTextView Demo"
+        app:titleTextColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtDanhSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:paddingVertical="10dp"
+        android:background="#AD88C6"
+        android:text="Chọn các môn học \ntrong danh sách sau: " />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE101"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFE6E6"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:text="IE101 - Cơ sở hạ tầng công nghệ thông tin"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE103"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IE103 - Quản lý thông tin" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE104"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IE104 - Internet và công nghệ web" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE105"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IE105 - Nhập môn bảo đảm và an ninh thông tin" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE106"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IE106 - Thiết kế giao diện người dùng" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIE108"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IE108 - Phân tích thiết kế phần mềm" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIS402"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="17sp"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:background="#FFE6E6"
+        android:text="IS402 - Điện toán đám mây" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginHorizontal="80dp"
+        android:textSize="24sp"
+        android:background="#7469B6"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="80dp"
+        android:textSize="24sp"
+        android:background="#7469B6"
+        android:text="Reset" />
+
+</LinearLayout>

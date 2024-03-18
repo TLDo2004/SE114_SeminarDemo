@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:title="TextView Demo"
+        app:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#9DD9D2"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:text="Đây là 1 TextView"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+    <!-- Dùng code java để tạo link-->
+    <TextView
+        android:id="@+id/txtLink1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#F4D06F"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textStyle="italic"
+        android:textSize="28sp" />
+
+    <!-- Dùng thuộc tính autoLink để tạo link-->
+    <TextView
+        android:id="@+id/txtLink2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#F4D06F"
+        android:gravity="center"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:textStyle="italic"
+        android:text="Go to this website: www.google.com"
+        android:autoLink="web"
+        android:textSize="28sp" />
+
+</LinearLayout>
