@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNhaphvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#AEA2C5"
+        android:text="Nhập họ và tên" />
+
+    <EditText
+        android:id="@+id/edtNhaphvt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:ems="30"
+        android:inputType="text"
+        android:hint="Mời nhập họ tên"
+        android:drawableLeft="@mipmap/ic_user"/>
+
+    <TextView
+        android:id="@+id/txtTinhThanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tỉnh thành"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#AEA2C5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoTinhThanh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:completionThreshold="1"
+        android:hint="Mời nhập tỉnh thành"
+        android:drawableLeft="@mipmap/ic_tinhthanh"/>
+
+    <TextView
+        android:id="@+id/txtDanToc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Dân tộc"
+        android:background="#AEA2C5"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoDanToc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:completionThreshold="1"
+        android:hint="Mời nhập dân tộc"
+        android:drawableLeft="@mipmap/ic_dantoc"/>
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Next" />
+
+</LinearLayout>

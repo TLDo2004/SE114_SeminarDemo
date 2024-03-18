@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">vidu_autocompletetext</string>
+    <string-array name = "arrTinhThanh">
+        <item>An Giang</item>
+        <item>Bà rịa-Vũng Tàu</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Giang</item>
+        <item>Bắc Kạn</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Dương</item>
+        <item>Bình Định</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cao Bằng</item>
+        <item>Cần Thơ</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Điện Biên</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Gia Lai</item>
+        <item>Hà Giang</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hòa Bình</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Kon Tum</item>
+        <item>Lai Châu</item>
+        <item>Lạng Sơn</item>
+        <item>Lào Cai</item>
+        <item>Lâm Đồng</item>
+        <item>Long An</item>
+        <item>Nam Định</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Ninh Thuận</item>
+        <item>Phú Thọ</item>
+        <item>Phú Yên</item>
+        <item>Quảng Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Quảng Ninh</item>
+        <item>Quảng Trị</item>
+        <item>Sóc Trăng</item>
+        <item>Sơn La</item>
+        <item>Tây Ninh</item>
+        <item>Thái Bình</item>
+        <item>Thái Nguyên</item>
+        <item>Thanh Hóa</item>
+        <item>Thừa Thiên Huế</item>
+        <item>Tiền Giang</item>
+        <item>TP Hồ Chí Minh</item>
+        <item>Trà Vinh</item>
+        <item>Tuyên Quang</item>
+        <item>Vĩnh Long</item>
+        <item>Vĩnh Phúc</item>
+        <item>Yên Bái</item>
+
+    </string-array>
+    <string-array name="arrDanToc">
+        <item>Kinh</item>
+        <item>Tày</item>
+        <item>Thái</item>
+        <item>Hoa</item>
+        <item>Khơ-me</item>
+        <item>Mường</item>
+        <item>Nùng</item>
+        <item>HMông</item>
+        <item>Dao</item>
+        <item>Gia-rai</item>
+        <item>Ngái</item>
+        <item>Ê-đê</item>
+        <item>Ba na</item>
+        <item>Xơ-Đăng</item>
+        <item>Sán Chay</item>
+        <item>Cơ-ho</item>
+        <item>Chăm</item>
+        <item>Sán Dìu</item>
+        <item>Hrê</item>
+        <item>Mnông</item>
+        <item>Ra-glai</item>
+        <item>Xtiêng</item>
+        <item>Bru-Vân Kiều</item>
+        <item>Thổ</item>
+        <item>Giáy</item>
+        <item>Cơ-tu</item>
+        <item>Gié Triêng</item>
+        <item>Mạ</item>
+        <item>Khơ-mú</item>
+        <item>Co</item>
+        <item>Tà-ôi</item>
+        <item>Chơ-ro</item>
+        <item>Kháng</item>
+        <item>Xinh-mun</item>
+        <item>Hà Nhì</item>
+        <item>Chu ru</item>
+        <item>Lào</item>
+        <item>La Chí</item>
+        <item>La Ha</item>
+        <item>Phù Lá</item>
+        <item>La Hủ</item>
+        <item>Lự</item>
+        <item>Lô Lô</item>
+        <item>Chứt</item>
+        <item>Mảng</item>
+        <item>Pà Thẻn</item>
+        <item>Co Lao</item>
+        <item>Cống</item>
+        <item>Bố Y</item>
+        <item>Si La</item>
+        <item>Pu Péo</item>
+        <item>Brâu</item>
+        <item>Ơ Đu</item>
+        <item>Rơ măm</item>
+    </string-array>
+</resources>
