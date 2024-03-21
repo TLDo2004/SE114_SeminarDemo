@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TextView txtLink1 = findViewById(R.id.txtLink1);
-
         SpannableString str = new SpannableString("Visit facebook!!!");
         ClickableSpan linkYoutube = new ClickableSpan() {
             @Override
