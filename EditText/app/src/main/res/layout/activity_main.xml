@@ -15,7 +15,6 @@
         android:text="Tài khoản"
         android:textStyle="bold"
         android:textSize="30dp"
-
         android:background="#AEA2C5"
         android:gravity="center"/>
 
