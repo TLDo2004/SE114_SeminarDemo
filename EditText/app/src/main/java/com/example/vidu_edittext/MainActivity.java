@@ -76,25 +76,5 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
-        edtNhapMK.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // Hành động trước khi văn bản thay đổi
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                // Hành động khi văn bản đang thay đổi
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                // Hành động sau khi văn bản đã thay đổi
-            }
-        });
-
-
     }
 }
