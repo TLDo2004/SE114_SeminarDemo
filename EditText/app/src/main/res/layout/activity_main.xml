@@ -58,4 +58,11 @@
         android:textStyle="bold"
         android:text="Đăng nhập" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment=""
+        android:src="@tools:sample/avatars" />
+
 </LinearLayout>

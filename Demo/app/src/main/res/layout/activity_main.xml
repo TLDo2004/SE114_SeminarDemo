@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Đăng ký môn học"
+        app:titleTextColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:text="Họ tên" />
+
+    <EditText
+        android:id="@+id/edtHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="40"
+        android:inputType="text"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:hint="Nguyen Van A" />
+
+    <TextView
+        android:id="@+id/txtNoiSinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:text="Nơi Sinh" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoNoiSinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:completionThreshold="1"
+        android:hint="Nhập nơi sinh" />
+
+    <TextView
+        android:id="@+id/txtMSSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:text="MSSV" />
+
+    <EditText
+        android:id="@+id/edtMSSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="40"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:hint="22520001"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:text="Môn học" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIT001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:checked="false"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="IT001" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIT002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:checked="false"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="IT002" />
+
+    <CheckedTextView
+        android:id="@+id/cktxtIT003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:checked="false"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="IT003" />
+
+    <Button
+        android:id="@+id/btnDK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:textSize="24sp"
+        android:text="ĐĂNG KÝ" />
+
+    <TextView
+        android:id="@+id/txtWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="20dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="https://student.uit.edu.vn" />
+
+
+</LinearLayout>
