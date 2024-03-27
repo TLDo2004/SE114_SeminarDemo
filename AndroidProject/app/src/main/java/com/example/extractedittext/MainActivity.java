@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 String newText = s.toString();
 
                 // Log văn bản mới
-                Log.d("OnTextChanged", "Văn bản mới: " + newText);
+                Log.d("OnTextChanged", "Văn bản đang được thay đổi." + newText);
             }
 
             @Override
@@ -61,16 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
-        extractEditText.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                if (event.getAction() == KeyEvent.ACTION_DOWN) {
-                    // Code khi có phím được nhấn
-                    Log.d("OnKey", "Đã có phím được nhấn.");
-                }
-                return false;
-            }
-        });
     }
 
 

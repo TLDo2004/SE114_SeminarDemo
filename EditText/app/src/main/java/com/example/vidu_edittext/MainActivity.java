@@ -4,11 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -59,8 +64,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
+        edtNhapMK.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    // Khi người dùng nhấn "Done" trên bàn phím
+                    Toast.makeText(getApplicationContext(), "Người dùng đã nhấn 'Done'",
+                            Toast.LENGTH_SHORT).show();
+                    return true;
+                }
+                return false;
+            }
+        });
     }
 }
